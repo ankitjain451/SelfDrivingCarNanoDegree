@@ -29,5 +29,7 @@ If you're feeling ambitious (again, totally optional though), don't stop there! 
 Writeup and Video:
 ---
 Writeup and video youtube link is present in the pdf named "Advanced Lane Finding Writeup"
-The Project
+The Project.
+Here is the link to the video. 
+https://www.youtube.com/watch?v=0Gn08JGRhvs
 
