@@ -11,6 +11,7 @@ This README contains info on:
 *  README (repo and process documentation):
    * `README.md`: This doc!
    * `readme_images/`: Contains images used in this doc
+   * `output_images/`: Output of pipeline and other relevant images
 * Given resources:
    * `test_images`: Images provided by Udacity to test my model on
 
