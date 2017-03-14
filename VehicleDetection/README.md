@@ -59,6 +59,7 @@ Here are two example images, the first from the `vehicle` class and the second f
 3. Train linear SVM using `sklearn.svm.LinearSVC()`.
 
 Code can be found in `Cell 29` and `Cell 30` of the notebook. 
+
 **Observation** : In this case, model accuracy came out to be more than 99% in most of the cases. The major issue was with random splitting of train/test data. Images in the subfolders were highly correlated with each other. Due to this, performance of the classifier was highly dependent on the selection of train and test data. Ideally, I should have trained the classifier on few subfolders and used other subfolders for testing. However, in interest of time, I skipped that step.
 
 ### II. Sliding Window Search
@@ -78,18 +79,21 @@ Window 1 (Parameters for `slide_window` function):
 * `y_start_stop = [395,650]`
 * `xy_window = (128,96)`
 * `xy_overlap =  (0.5,0.5)`
+
 ![Window 1 Sample](./readme_images/window1.png)
 
 Window 2 (Parameters for `slide_window` function): 
 * `y_start_stop = [395,650]`
 * `xy_window = (96,96)`
 * `xy_overlap =  (0.8,0.8)`
+
 ![Window 1 Sample](./readme_images/window2.png)
 
 Window 3 (Parameters for `slide_window` function): 
 * `y_start_stop = [395,550]`
 * `xy_window = (48,48)`
 * `xy_overlap =  (0.45,0.45)`
+
 ![Window 1 Sample](./readme_images/window3.png)
 
 
